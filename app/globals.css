@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0066CC;
+  --primary-light: #00AAFF;
+  --secondary: #001F5B;
+  --accent: #00D4FF;
+  --white: #FFFFFF;
+  --gray-light: #F0F4FF;
+  --dark: #0A0F1E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  background-color: #ffffff;
+  color: #0A0F1E;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 102, 204, 0.15);
+}
+
+/* Blue neon glow */
+.neon-glow {
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.4), 0 0 40px rgba(0, 102, 204, 0.2);
+}
+
+.neon-text {
+  text-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+}
+
+/* Circuit board pattern */
+.circuit-bg {
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(0, 170, 255, 0.15) 1px, transparent 0);
+  background-size: 40px 40px;
+}
+
+/* Section padding */
+.section-padding {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 48px 0;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0F1E;
+}
+::-webkit-scrollbar-thumb {
+  background: #0066CC;
+  border-radius: 3px;
+}
