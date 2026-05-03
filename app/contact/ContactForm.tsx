@@ -104,7 +104,7 @@ export default function ContactForm() {
                     type="text"
                     value={form.name}
                     onChange={(e) => handleChange('name', e.target.value)}
-                    placeholder="Rahi Sharma"
+                    placeholder="Rohit Sharma"
                     className={`w-full px-4 py-3 rounded-xl border font-inter text-sm bg-white text-dark placeholder-dark/30 outline-none transition-all focus:ring-2 focus:ring-primary/30 ${errors.name ? 'border-red-400' : 'border-dark/10 focus:border-primary'}`}
                   />
                   {errors.name && <p className="font-inter text-red-500 text-xs mt-1">{errors.name}</p>}
@@ -195,7 +195,7 @@ export default function ContactForm() {
               </div>
 
               {[
-                { icon: Mail, label: 'Email', value: 'info@techrapids.com', href: 'mailto:info@techrapids.com' },
+                { icon: Mail, label: 'Email', value: 'Techsupport@tech-rapids.com', href: 'mailto:Techsupport@tech-rapids.com'},
                 { icon: Phone, label: 'Phone', value: '+91 XXXXX XXXXX', href: 'tel:+91XXXXXXXXXX' },
                 { icon: MapPin, label: 'Location', value: 'India', href: '#' },
               ].map(({ icon: Icon, label, value, href }) => (
@@ -216,7 +216,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="font-inter text-dark/50 text-xs uppercase tracking-wider mb-1">Business Hours</p>
-                  <p className="font-poppins font-semibold text-dark text-sm">Mon – Fri: 9:00 AM – 6:00 PM</p>
+                  <p className="font-poppins font-semibold text-dark text-sm">Always Available For You</p>
                   <p className="font-inter text-dark/60 text-xs">Support available 24/7</p>
                 </div>
               </div>

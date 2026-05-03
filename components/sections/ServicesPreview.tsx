@@ -24,12 +24,6 @@ const services = [
     color: 'from-cyan-500/20 to-teal-500/20',
   },
   {
-    icon: Shield,
-    title: 'Cybersecurity',
-    description: 'Comprehensive security audits, threat detection, and protection strategies.',
-    color: 'from-red-500/20 to-orange-500/20',
-  },
-  {
     icon: Bot,
     title: 'AI & Automation',
     description: 'Intelligent automation and AI-powered solutions to streamline your operations.',

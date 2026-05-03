@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const stats = [
-  { target: 500, suffix: '+', label: 'Projects Completed' },
-  { target: 50, suffix: '+', label: 'Happy Clients' },
-  { target: 5, suffix: '+', label: 'Years Experience' },
+  { target: 10, suffix: '+', label: 'Projects Completed' },
+  { target: 5, suffix: '+', label: 'Happy Clients' },
+  { target: 1, suffix: '+', label: 'Years Experience' },
   { target: 24, suffix: '/7', label: 'Support Hours' },
 ]
 

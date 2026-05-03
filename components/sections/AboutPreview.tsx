@@ -6,9 +6,9 @@ import { motion } from 'framer-motion'
 import { ArrowRight, CheckCircle } from 'lucide-react'
 
 const highlights = [
-  'Expert team of 50+ professionals',
-  '500+ successful projects delivered',
-  'Trusted by clients across 10+ industries',
+  'Expert team of 10+ professionals',
+  '10+ successful projects delivered',
+  'Trusted by clients across 5+ industries',
   'Cutting-edge technology stack',
 ]
 
@@ -43,7 +43,7 @@ export default function AboutPreview() {
             </div>
             {/* Floating badge */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 glass-light rounded-2xl px-5 py-3 shadow-xl border border-primary/20 z-10">
-              <p className="font-poppins font-bold text-2xl text-primary">5+ Years</p>
+              <p className="font-poppins font-bold text-2xl text-primary">1+ Years</p>
               <p className="font-inter text-xs text-secondary/70">of Excellence</p>
             </div>
           </motion.div>
@@ -60,7 +60,7 @@ export default function AboutPreview() {
               We Are Your Trusted <span className="text-primary">Technology Partner</span>
             </h2>
             <p className="font-inter text-dark/70 leading-relaxed mb-6">
-              Founded by Rahi Sharma, Tech Rapids has been at the forefront of digital transformation since day one.
+              Tech Rapids has been at the forefront of digital transformation since day one.
               We combine technical expertise with business acumen to deliver solutions that truly make a difference.
             </p>
             <ul className="space-y-3 mb-8">

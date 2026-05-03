@@ -43,7 +43,7 @@ export default function Navbar() {
             <Zap size={18} className="text-white" />
           </motion.div>
           <span className="font-poppins font-bold text-xl text-white">
-            Tech<span className="text-accent">Rapids</span>
+            Tech <span className="text-accent">Rapids</span>
           </span>
         </Link>
 

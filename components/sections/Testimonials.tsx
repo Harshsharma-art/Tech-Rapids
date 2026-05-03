@@ -6,7 +6,7 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    name: 'Priya Mehta',
+    name: 'Deepak Sharma',
     company: 'Education Solution Provider',
     role: 'CEO',
     quote:
@@ -26,7 +26,7 @@ const testimonials = [
     company: 'HealthCare Plus',
     role: 'Director of Technology',
     quote:
-      'Outstanding cybersecurity implementation. We feel completely secure now. Their 24/7 support is a game-changer for our operations.',
+      'Outstanding software implementation. We feel completely secure now. Their 24/7 support is a game-changer for our operations.',
     rating: 5,
   },
 ]

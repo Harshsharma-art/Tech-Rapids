@@ -54,29 +54,7 @@ const clients = [
   },
 ]
 
-const testimonials = [
-  {
-    name: 'Rahi Sharma & Sandeep Singh Saran',
-    company: 'TechCorp Industries',
-    role: 'CEO',
-    quote: 'Tech Rapids transformed our entire IT infrastructure. Rahi and his team delivered beyond expectations.',
-    rating: 5,
-  },
-  {
-    name: 'Rahi Sharma',
-    company: 'StartupHub',
-    role: 'Founder',
-    quote: 'Their web development service helped us launch our platform in record time. Truly professional team.',
-    rating: 5,
-  },
-  {
-    name: 'Shayam Sundar',
-    company: 'Digital Ventures',
-    role: 'CTO',
-    quote: 'Outstanding support and maintenance services. We\'ve never had downtime since partnering with Tech Rapids.',
-    rating: 5,
-  },
-]
+
 
 const metrics = [
   { value: '98%', label: 'Client Retention Rate' },
@@ -170,47 +148,7 @@ export default function ClientsContent() {
       </section>
 
       {/* Testimonials */}
-      <section className="section-padding bg-secondary">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-14"
-          >
-            <p className="font-inter text-accent text-sm font-medium tracking-widest uppercase mb-3">Testimonials</p>
-            <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-white">What Our Clients Say</h2>
-          </motion.div>
-
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6"
-          >
-            {testimonials.map((t) => (
-              <motion.div
-                key={t.name}
-                variants={item}
-                className="glass rounded-2xl p-7 flex flex-col"
-              >
-                <Quote size={32} className="text-accent/30 mb-4" />
-                <p className="font-inter text-white/75 text-sm leading-relaxed italic mb-6 flex-1">
-                  &ldquo;{t.quote}&rdquo;
-                </p>
-                <div className="flex gap-1 mb-3">
-                  {Array.from({ length: t.rating }).map((_, i) => (
-                    <Star key={i} size={14} className="text-yellow-400 fill-yellow-400" />
-                  ))}
-                </div>
-                <p className="font-poppins font-semibold text-white text-sm">{t.name}</p>
-                <p className="font-inter text-accent/70 text-xs">{t.role}, {t.company}</p>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
+    
     </>
   )
 }

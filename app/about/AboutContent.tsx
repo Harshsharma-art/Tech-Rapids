@@ -52,14 +52,14 @@ export default function AboutContent() {
                 <div className="absolute inset-0 rounded-3xl bg-brand-gradient opacity-20 blur-xl" />
                 <Image
                   id="founder-photo"
-                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400"
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
                   alt="Rahi Sharma — Founder & CEO, Tech Rapids"
                   fill
                   className="object-cover rounded-3xl relative z-10"
                 />
                 <div className="absolute -bottom-4 -right-4 glass-light rounded-2xl px-4 py-3 z-20 border border-primary/20">
-                  <p className="font-poppins font-bold text-primary text-sm">Rahi Sharma</p>
-                  <p className="font-inter text-secondary/70 text-xs">Founder & CEO</p>
+                  <p className="font-poppins font-bold text-primary text-sm">Tech Rapids</p>
+                 
                 </div>
               </div>
             </motion.div>
@@ -70,15 +70,14 @@ export default function AboutContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <p className="font-inter text-primary text-sm font-medium tracking-widest uppercase mb-3">Our Founder</p>
+              
               <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-dark mb-5">
-                Meet <span className="text-primary">Rahi Sharma</span>
+                Meet <span className="text-primary"> Tech Rapids</span>
               </h2>
               <p className="font-inter text-dark/70 leading-relaxed mb-4">
-                Rahi Sharma founded Tech Rapids with a vision to simplify digital transformation and make advanced IT solutions accessible to everyone. With a passion for technology and a commitment to excellence, he leads a team dedicated to delivering innovative IT solutions.
-              </p>
+                   Tech Rapids has been at the forefront of digital transformation since day one. We combine technical expertise with business acumen to deliver solutions that truly make a difference.              </p>
               <p className="font-inter text-dark/70 leading-relaxed mb-6">
-                Under his leadership, Tech Rapids has grown from a small startup to a trusted IT partner for businesses across multiple industries, delivering 500+ successful projects and counting.
+               Tech Rapids has grown from a small startup to a trusted IT partner for businesses across multiple industries, delivering 10  + successful projects and counting.
               </p>
               <div className="flex flex-wrap gap-3">
                 {['Visionary Leader', 'Tech Enthusiast', '5+ Years Experience'].map((tag) => (
@@ -142,49 +141,7 @@ export default function AboutContent() {
       </section>
 
       {/* Team Section */}
-      <section className="section-padding bg-gray-light">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-14"
-          >
-            <p className="font-inter text-primary text-sm font-medium tracking-widest uppercase mb-3">The People</p>
-            <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-dark">Meet Our Team</h2>
-          </motion.div>
-
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto"
-          >
-            {team.map((member) => (
-              <motion.div
-                key={member.name}
-                variants={item}
-                whileHover={{ scale: 1.03 }}
-                className="glass-light rounded-2xl overflow-hidden border border-primary/10 text-center"
-              >
-                <div className="relative h-48">
-                  <Image
-                    src={member.img}
-                    alt={member.name}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-5">
-                  <p className="font-poppins font-semibold text-dark">{member.name}</p>
-                  <p className="font-inter text-primary text-sm">{member.role}</p>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
+      
 
       {/* Values Section */}
       <section className="section-padding bg-secondary">

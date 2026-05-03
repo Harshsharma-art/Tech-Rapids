@@ -27,13 +27,6 @@ const services = [
     color: 'from-cyan-500/20 to-teal-500/20',
   },
   {
-    icon: Shield,
-    title: 'Cybersecurity',
-    description: 'Comprehensive security solutions to protect your business from evolving threats.',
-    features: ['Security Audits & Pen Testing', 'Threat Detection & Response', 'Compliance (ISO, GDPR)', 'Employee Security Training', 'Incident Response Planning'],
-    color: 'from-red-500/20 to-orange-500/20',
-  },
-  {
     icon: Bot,
     title: 'AI & Automation',
     description: 'Intelligent automation and AI-powered tools that transform your business operations.',

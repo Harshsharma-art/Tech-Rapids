@@ -15,7 +15,6 @@ const services = [
   'Web Development',
   'Mobile App Development',
   'Cloud Solutions',
-  'Cybersecurity',
   'AI & Automation',
   'IT Support',
 ]
@@ -35,7 +34,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <span className="font-poppins font-bold text-xl text-white">
-                Tech<span className="text-accent">Rapids</span>
+                Tech <span className="text-accent">Rapids</span>
               </span>
             </div>
             <p className="font-inter text-white/60 text-sm leading-relaxed mb-2">
@@ -105,13 +104,13 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-accent shrink-0" />
                 <a href="tel:+91XXXXXXXXXX" className="font-inter text-sm text-white/60 hover:text-accent transition-colors">
-                  +91 XXXXX XXXXX
+                  +91 XXXXX Soon
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-accent shrink-0" />
                 <a href="mailto:info@techrapids.com" className="font-inter text-sm text-white/60 hover:text-accent transition-colors">
-                  info@techrapids.com
+                  Techsupport@tech-rapids.com
                 </a>
               </li>
             </ul>
@@ -122,7 +121,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-inter text-xs text-white/40 text-center sm:text-left">
-            © 2025 Tech Rapids. All rights reserved. | Founded by Rahi Sharma
+            © 2025 Tech Rapids. All rights reserved.
           </p>
           <p className="font-inter text-xs text-accent/70 text-center sm:text-right italic">
             We don&apos;t just build solutions, we build your business growth.

@@ -8,9 +8,9 @@ import { ArrowDown, ArrowRight, Zap } from 'lucide-react'
 const words = ['Flow', 'Fast', 'Through', 'Tech', 'Troubles']
 
 const stats = [
-  { value: '500+', label: 'Projects' },
-  { value: '50+', label: 'Clients' },
-  { value: '5+', label: 'Years' },
+  { value: '10+', label: 'Projects' },
+  { value: '5+', label: 'Clients' },
+  { value: '1+', label: 'Years' },
   { value: '24/7', label: 'Support' },
 ]
 
